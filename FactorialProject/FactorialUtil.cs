@@ -11,7 +11,7 @@ namespace FactorialProject
         public long GetFactorial(long x)
         {
             if (x == 0 || x==1)
-                return 1;
+                return 0;
             else
             {
                 long xMin1Fact = GetFactorial(x - 1);
